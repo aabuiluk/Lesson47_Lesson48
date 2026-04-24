@@ -49,12 +49,13 @@ while True:
         new_note = str(input("Enter a new note : "))
         notes[index] = f"{new_note}\n"
     elif command == "u2":
-        # 2 По повному збігу старого напису
+        # 2 По повному збігу старого напису something
         old_note = str(input("Enter a note : "))
         new_note = str(input("Enter a new note : "))
         for i in range(len(notes)):
             if old_note == notes[i]:
                 notes[i] = f"{new_note}\n"
+
     elif command == "u3":
         # 3 По частковому збігу старого напису
         old_note = str(input("Enter a note : "))
