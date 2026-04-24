@@ -1,1 +1,1 @@
-print("Welcome to the note creation system")
+print("Вітаю!")
