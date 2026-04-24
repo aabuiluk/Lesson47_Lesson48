@@ -81,3 +81,4 @@ while True:
             if old_note in notes[i]:
                 del notes[i]
     write_note(notes)
+
